@@ -24,5 +24,7 @@ git clone --branch mycroft.eus https://mycroft:6WW5pLKnrtXzemrMsyFH@gitlab.elhuy
 ./bin/mycroft-pip install lingua-franca/
 
 #install Elhuyar STT and TTS
-#./bin/mycroft-pip install mycroft-tts-plugin-elhuyar
-#./bin/mycroft-pip install mycroft-stt-plugin-elhuyar
+#install Elhuyar STT and TTS
+./bin/mycroft-pip install mycroft-tts-plugin-elhuyar
+./bin/mycroft-pip install mycroft-stt-plugin-elhuyar
+
