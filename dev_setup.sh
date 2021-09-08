@@ -595,6 +595,9 @@ else
     echo 'Skipping mimic build.'
 fi
 
+chmod +x scripts/install-eus.sh
+"${TOP}/scripts/install-eus.sh" " $CORES"
+
 # set permissions for common scripts
 chmod +x start-mycroft.sh
 chmod +x stop-mycroft.sh
