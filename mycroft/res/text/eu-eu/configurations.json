@@ -1,0 +1,34 @@
+{
+  "unit system": {
+    "metric": {"system_unit": "metric"},
+    "imperial": {"system_unit": "imperial"}
+  },
+  "location": {
+    "errenteria": {
+      "location": {
+        "city": {
+          "code": "Errenteria",
+          "name": "Errenteria",
+          "state": {
+            "code": "ES.PV",
+            "name": "Euskal Herria",
+            "country": {
+              "code": "ES",
+              "name": "Spain"
+            }
+          }
+        },
+        "coordinate": {
+          "latitude": 43.31176,
+          "longitude": -1.89802
+        },
+        "timezone": {
+          "code": "Europe/Madrid",
+          "dst_offset": 7200000,
+          "name": "Europe/Madrid",
+          "offset": 3600000
+        }
+      }
+    }
+  }
+}
