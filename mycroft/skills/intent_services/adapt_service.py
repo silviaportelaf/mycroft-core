@@ -228,6 +228,7 @@ class AdaptService:
             print("utt_tup",utt_tup)
             for utt in utt_tup:
                 print("utt",utt)
+                print("self.context_manager",self.context_manager)
                 try:
                     intents = [i for i in self.engine.determine_intent(
                         utt, 100,
