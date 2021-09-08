@@ -222,9 +222,12 @@ class AdaptService:
                 best_intent = intent
                 # TODO - Shouldn't Adapt do this?
                 best_intent['utterance'] = utt
-
+        
+       
         for utt_tup in utterances:
+            print("utt_tup",utt_tup)
             for utt in utt_tup:
+                print("utt",utt)
                 try:
                     intents = [i for i in self.engine.determine_intent(
                         utt, 100,
@@ -237,6 +240,7 @@ class AdaptService:
                         take_best(utt_best, utt_tup[0])
 
                 except Exception as err:
+                    print("Exception",utt)
                     LOG.exception(err)
 
         if best_intent:
